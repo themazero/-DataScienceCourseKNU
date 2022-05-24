@@ -1,19 +1,13 @@
-1. Створити змінні базових (atomic) типів. 
-Базові типи: character:
+1. . Створити змінні базових (atomic) типів. Базові типи: character, numeric, 
+integer, complex, logical:
 s <- "KNUCA"
- integer:
 x <- 2L
-numeric:
 y <- 2.0
-complex:
 a <- 1 + 4i
-logical:
 b <- FALSE
 2. Створити вектори, які: містить послідовність з 5 до 75: 
 v_1 <- 5:75
-містить числа 3.14, 2.71, 0, 13;:
 v_2 <- c(3.14,2.71,0,13)
-100 значень TRUE.:
 v_3 <- c(rep(x = TRUE, times = 100))
 3. Створити наступну матрицю за допомогою matrix, :
 mat2 <- matrix(c(0.5, 1.3, 3.5, 3.9, 131, 2.8, 0, 2.2, 4.6, 2, 7, 5.1), nrow = 4, ncol = 3, byrow = TRUE)
